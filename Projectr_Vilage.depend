@@ -16,21 +16,24 @@
 1697470708 source:d:\хижов максим\projectr_vilage\pictures.cpp
 	"TXLib.h"
 
-1701705850 source:d:\инженерка\vilage-main\button.cpp
+1702913470 source:d:\инженерка\vilage-main\button.cpp
 	"TXLib.h"
 
-1698076310 source:d:\инженерка\vilage-main\main.cpp
+1703254800 source:d:\инженерка\vilage-main\main.cpp
 	"TXLib.h"
+	<fstream>
+	<stdio.h>
+	<dirent.h>
 	"button.cpp"
 	"pictures.cpp"
 
-1698076672 d:\инженерка\vilage-main\button.cpp
+1702913470 d:\инженерка\vilage-main\button.cpp
 	"TXLib.h"
 
-1697817784 d:\инженерка\vilage-main\pictures.cpp
+1702913470 d:\инженерка\vilage-main\pictures.cpp
 	"TXLib.h"
 
-1701705850 source:d:\инженерка\vilage-main\pictures.cpp
+1702913470 source:d:\инженерка\vilage-main\pictures.cpp
 	"TXLib.h"
 
 1698938028 source:d:\хижов максим\vilage-main\vilage-main\button.cpp

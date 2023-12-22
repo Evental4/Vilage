@@ -1,0 +1,45 @@
+468
+199
+Pictures/жилые зд/dom3.bmp
+228
+200
+466
+326
+Pictures/житили/GH5.bmp
+23
+45
+697
+500
+Pictures/другиие струк/korabil.bmp
+250
+200
+256
+104
+Pictures/деревья/Bigger.bmp
+150
+120
+255
+574
+Pictures/деревья/dyb.bmp
+150
+120
+806
+101
+Pictures/деревья/El.bmp
+150
+120
+302
+274
+Pictures/прочие струк/RMA.bmp
+150
+150
+463
+379
+Pictures/дорога/Dor5.bmp
+58
+133
+421
+412
+Pictures/дорога/Dor6.bmp
+146
+63

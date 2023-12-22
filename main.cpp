@@ -244,7 +244,7 @@ int main()
 
     //Button поевись
     Button btn[cont_btn];
-    btn[0] = {60,30,"житили","житили"};
+    btn[0] = {60,30,"жители","жители"};
     btn[1] = {205,30,"рабочие зд","рабочие зд"};
     btn[2] = {350,30,"жилые зд","жилые зд"};
     btn[3] = {495,30,"другиие струк","другиие струк"};
@@ -252,7 +252,7 @@ int main()
     btn[5] = {785,30,"деревья","деревья"};
     btn[6] = {930,30,"дорога","дорога"};
     btn[7] = {1100,700,"Очистка",""};
-    btn[8] = {1100,450,"снимок экрана",""};
+    btn[8] = {1100,450,"Снимок_экрана",""};
     btn[9] = {1100,550,"Сохранить",""};
     btn[10] = {1100,600,"Загрузить",""};
     btn[11] = {1100,500,"Справка",""};
@@ -263,7 +263,7 @@ int main()
     //инц картин меню
      Pictures menupic[100];
 
-     cont_pic =readFromDir("Pictures/житили/",menupic,cont_pic );
+     cont_pic =readFromDir("Pictures/жители/",menupic,cont_pic );
      cont_pic =readFromDir("Pictures/рабочие зд/",menupic,cont_pic);
      cont_pic =readFromDir("Pictures/жилые зд/",menupic,cont_pic);
      cont_pic =readFromDir("Pictures/другиие струк/",menupic,cont_pic);
@@ -285,7 +285,7 @@ int main()
     int pos2 = str.find("/",pos1+1);
     menupic[i].category = str.substr(pos1+1, pos2-pos1-1);
 
-    if(menupic[i].category == "житили" )
+    if(menupic[i].category == "жители" )
     {
         menupic[i].w_scr =  menupic[i].w/1;
         menupic[i].h_scr =  menupic[i].h/1;
@@ -568,6 +568,7 @@ int main()
                    "Програма 'Редокция плана деревни'\n"
                    "картинки предвигаются стрелками и мышкой\n"
                    "Картинку можно увеличить '+' и уменьшить'-'\n"
+                   "Экран можно очистить по кнопке'Очистка'\n"
                    "Результаты можно сохранить\n"
                    "Результаты можно выгружать\n"
                    "Результаты можно заскринить\n"
@@ -583,7 +584,7 @@ int main()
 
      if(btn[btn_prstc].click())
      {
-        ScreenCapture(250, 100, 700, 600, "1.bmp", txWindow());
+        ScreenCapture(250, 100, 700, 600, "скриншот.bmp", txWindow());
             txMessageBox("Сохранено в 1.bmp");
      }
 
