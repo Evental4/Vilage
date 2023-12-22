@@ -550,7 +550,7 @@ int main()
                     }
                     filein.close();
             }
-
+            //справкa
             if(btn[btn_help].click())
             {
               page = page_help;
@@ -585,7 +585,7 @@ int main()
      if(btn[btn_prstc].click())
      {
         ScreenCapture(250, 100, 700, 600, "скриншот.bmp", txWindow());
-            txMessageBox("Сохранено в 1.bmp");
+            txMessageBox("Сохранено в скриншот.bmp");
      }
 
      if(btn[btn_delte].click())
@@ -601,7 +601,7 @@ int main()
     {
      txDeleteDC(menupic[i].pic);
     }
-    for (int i=0; i<=n_sent_pic; i++)
+    for (int i=0; i<n_sent_pic; i++)
     {
      txDeleteDC(centpic[i].pic);
     }
